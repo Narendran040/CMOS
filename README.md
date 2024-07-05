@@ -6,9 +6,7 @@ semiconductor) integrated circuit (IC) design process (the design of "chips"). C
 used in most very large-scale integrated (VLSI) or ultra-large-scale integrated (ULSI)
 circuit chips. The term "VLSI" is generally associated with chips containing thousands or
 millions of metal oxide semiconductor field effect transistors (MOSFETs). The term
-"ULSI" is generally associated with chips containing billions, or more, MOSFETs. We'll
-avoid the use of these descriptive terms in this book and focus simply on "digital and
-analog CMOS circuit design
+"ULSI" is generally associated with chips containing billions, or more, MOSFETs.
 > The CMOS IC Design Process
 
  ![cmos](https://github.com/Narendran040/CMOS/assets/157210399/4f6e6277-388e-43cd-9b43-d087af40786a)
