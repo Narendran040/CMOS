@@ -36,7 +36,7 @@ Custom IC Design: Involves designing chips tailored to specific applications, su
 
 Noncustom Methods: Includes designing chips using field-programmable-gate-arrays (FPGAs) and standard cell libraries, suitable for low volume and quick turnaround projects.
 
-Importance of Layout Design
+Importance of Layout Design:
 The layout of an integrated circuit (IC) is critical, and while layout designers often handle this task, engineers must also understand layout principles and parasitic elements. This knowledge is essential for precision and high-speed designs, as parasitics can lead to issues like breakdown, stored charge, and latch-up.
 
  ![cmos](https://github.com/Narendran040/CMOS/assets/157210399/4f6e6277-388e-43cd-9b43-d087af40786a)
