@@ -48,3 +48,9 @@ Each wafer contains several (perhaps hundreds or even thousands) of individual c
 "die" .
 
 ![Screenshot 2024-07-03 214907](https://github.com/Narendran040/CMOS/assets/157210399/4fb6d851-74eb-447a-85ff-382cfefa5514)
+
+In the process of packaging integrated circuits (ICs), the chip's electrical signals are transmitted to the pins of the package through wires known as "bond wires." These wires electrically bond the chip to the package, connecting a pin of the chip to a piece of metal on the chip called a bonding pad. The chip is secured in the package cavity using an epoxy resin, as illustrated in Figure
+
+While ceramic packages, as shown in Figure, are not commonly used for most mass-produced chips, plastic packages are more prevalent. Exceptions to this include chips that dissipate significant amounts of heat or those directly placed on printed circuit boards and simply packaged with a glob of resin. For plastic-packaged (encapsulated) chips, the die is placed on a lead frame (as shown in Fig. 1.4), and then the die and lead frame are encapsulated in plastic. This process involves melting the plastic around the chip. After encapsulation, the leads are bent into the correct positions, information is printed on the chip (including the manufacturer, chip type, and lot number), and the chip is placed in a tube or reel for shipping to companies that manufacture products using these chips. Example products include chips used in cell phones, computers, microwave ovens, and printers.
+
+![Screenshot 2024-07-18 230955](https://github.com/user-attachments/assets/7cc553f8-37bf-4e02-9111-96b0eeba4c68)
