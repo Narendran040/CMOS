@@ -54,3 +54,25 @@ In the process of packaging integrated circuits (ICs), the chip's electrical sig
 While ceramic packages, as shown in Figure, are not commonly used for most mass-produced chips, plastic packages are more prevalent. Exceptions to this include chips that dissipate significant amounts of heat or those directly placed on printed circuit boards and simply packaged with a glob of resin. For plastic-packaged (encapsulated) chips, the die is placed on a lead frame (as shown in Fig. 1.4), and then the die and lead frame are encapsulated in plastic. This process involves melting the plastic around the chip. After encapsulation, the leads are bent into the correct positions, information is printed on the chip (including the manufacturer, chip type, and lot number), and the chip is placed in a tube or reel for shipping to companies that manufacture products using these chips. Example products include chips used in cell phones, computers, microwave ovens, and printers.
 
 ![Screenshot 2024-07-18 230955](https://github.com/user-attachments/assets/7cc553f8-37bf-4e02-9111-96b0eeba4c68)
+
+> Layout and Cross-Sectional Views
+
+Layout vs. Cross-Sectional View:
+
+The layout view shows the top view of the die.
+The cross-sectional view helps understand parasitics and circuit connections.
+Drawing Cross-Sections:
+
+A layout view is often followed by a cross-sectional view to illustrate differences.
+The cross-section is drawn from a specific line indicated in the layout view.
+Pie Example:
+
+The layout view of a pie includes layers like crust, filling, caramel, whipped cream, and nuts.
+The cross-sectional view shows these layers in the order they are assembled.
+The order of drawing layers in the layout view doesn't matter, but the fabrication order does (e.g., crust baked before adding nuts).
+
+![Screenshot 2024-07-18 231601](https://github.com/user-attachments/assets/8c32639b-d911-47a8-84df-aa6748cc677c)
+
+
+
+
