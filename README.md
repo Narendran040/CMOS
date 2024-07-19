@@ -73,6 +73,32 @@ The order of drawing layers in the layout view doesn't matter, but the fabricati
 
 ![Screenshot 2024-07-18 231601](https://github.com/user-attachments/assets/8c32639b-d911-47a8-84df-aa6748cc677c)
 
+### CMOS Inverter Schematic
+
+1. **Schematic Details**:
+   - The schematic of a CMOS inverter uses a modified bipolar symbol for the MOSFET.
+   - Connections of the sources (terminals with arrows) and drains are reversed compared to most circuit design practices.
+   - Current flows from the top to the bottom of the schematic, with the arrow indicating the direction of current flow.
+
+2. **Operation**:
+   - **Input Voltage (Vt)**: When the input voltage (Vt) is at the negative supply rail (-K), the output voltage (Va) goes to the positive supply voltage (+V).
+     - **NMOS Device**: The NMOS device (at the bottom) shuts off.
+     - **PMOS Device**: The PMOS device (at the top) turns on.
+   - **Input Voltage (Vt)**: When the input voltage goes to the positive supply voltage (+P), the output voltage goes to the negative supply voltage (−V).
+     - **NMOS Device**: The NMOS device turns on.
+     - **PMOS Device**: The PMOS device turns off.
+   - This operation ensures that a logic 0 (-K) at the input corresponds to a logic 1 (+V) at the output, and a logic 1 (+P) at the input corresponds to a logic 0 (−V) at the output, thus performing the logical inversion operation.
+
+3. **Advantages Over BJT Circuits**:
+   - **Output Swing**: The output swing goes to the power supply rails.
+   - **Static Power Dissipation**: Very low static power dissipation.
+   - **No Storage Time Delays**: The absence of storage time delays enhances the circuit's efficiency and performance.
+  
+     
+![Screenshot 2024-07-19 232455](https://github.com/user-attachments/assets/2e877839-d4d6-4ed6-8628-6bf32eee8459)
+
+
+
 
 
 
