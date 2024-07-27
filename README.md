@@ -97,6 +97,22 @@ The order of drawing layers in the layout view doesn't matter, but the fabricati
      
 ![Screenshot 2024-07-19 232455](https://github.com/user-attachments/assets/2e877839-d4d6-4ed6-8628-6bf32eee8459)
 
+### Introduction to Spice 
+
+SPICE (Simulation Program with Integrated Circuit Emphasis) is a widely used tool for simulating electronic circuits. It uses a text file called a netlist for simulation input. For more information on downloading, installing, and using SPICE, as well as examples, refer to CMOSedu.com.
+
+> Generating a Netlist file
+
+We can use, among others, the Window's notepad or Wordpad programs to create a
+SPICE netlist. SPICE likes to see files with "*.cir, *.sp, or *.spi" (among others)
+extensions. To save a file with these extensions, place the file name and extension in
+quotes. If quotes are not used, then Windows may tack on ".txt" to the
+filename. This can make finding the file difficult when opening the netlist in SPICE. 
+
+
+
+
+
 
 
 
