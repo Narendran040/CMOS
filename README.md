@@ -110,7 +110,36 @@ quotes. If quotes are not used, then Windows may tack on ".txt" to the
 filename. This can make finding the file difficult when opening the netlist in SPICE. 
 
 
+![Screenshot 2024-07-28 001319](https://github.com/user-attachments/assets/167217ac-9b13-46c7-9be8-6d83950c3996)
 
+> Operating point
+
+The first SPICE simulation analysis we’ll explore is the .op or operating point analysis. This analysis provides a list of node voltages, loop currents, and small-signal AC parameters for active elements. For example, consider the schematic in Figure 1.10. The corresponding SPICE netlist might look like this:
+
+```
+*#destroy all
+*#run
+*#print all
+.op
+Vin 1 0 DC 1
+R1 1 2 1k
+R2 2 0 2k
+.end
+```
+In this netlist:
+
+The first line is a title and is ignored by SPICE.
+
+Lines starting with * are comments, while those with *# are command lines for some SPICE programs.
+.op initiates the operating point analysis.
+
+Vin 1 0 DC 1 specifies a 1V DC voltage source between node 1 and ground.
+ 
+R1 1 2 1k and R2 2 0 2k define resistors between the nodes.
+
+Running this simulation yields the output:
+
+![Screenshot 2024-07-27 235308](https://github.com/user-attachments/assets/5b375cb9-8107-4f23-9db3-9a2dd718fbac)
 
 
 
